@@ -7,7 +7,7 @@ dotenv.config({ path: "./.env" });
 connectDB();
 
 import authRoute from "./auth/auth.router";
-
+import adminRoute from "./admin/admin.router";
 const app: Express = express();
 const port = process.env.PORT || 3000;
 
@@ -18,7 +18,7 @@ app.use("/", (req, res) => {
   res.json({ success: true, message: "Namma lost maara !" });
 });
 app.use(authRoute);
-
+app.use(adminRoute);
 app.use((error: HttpError, req: Request, res: Response, next: NextFunction) => {
   if (error) {
     res.status(error.status).json({ message: error.message });
