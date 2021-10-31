@@ -6,18 +6,31 @@
 4. We have unique dashboards for both the consumer and the service providers with exclusive features. For example, the service provider is able to manage and update the status of the user's orders.
 5. Once the booking is confirmed, the consumer will receive an invoice to their registered mail ID will all the details such as the order id, consumer's details and list of couriers requested
 ## Screenshots
+### <p align="center"><b>Homepage</b></p>
 <div align="center">
   <img alt="Screenshot" src="pictures/hero.png" />
 </div>
+
+### <p align="center"><b>User Dashboard</b></p>
+
 <div align="center">
   <img alt="Screenshot" src="pictures/dashboard.png" />
 </div>
+
+### <p align="center"><b>My Orders</b></p>
+
 <div align="center">
   <img alt="Screenshot" src="pictures/myorder.png" />
 </div>
+
+### <p align="center"><b>Invoice (Received via mail)</b></p>
+
 <div align="center">
   <img alt="Screenshot" src="pictures/invoice.png" />
 </div>
+
+### <p align="center"><b>Track Package</b></p>
+
 <div align="center">
   <img alt="Screenshot" src="pictures/track.png" />
 </div>
